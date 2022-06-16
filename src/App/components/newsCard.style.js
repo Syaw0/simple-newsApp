@@ -1,5 +1,5 @@
 import { styled } from "../../@stitches.config"
-
+import darkTheme from "../theme/darkTheme"
 const Main_card = styled("div" , {
     width:"550px",
     flex_c:"",
@@ -16,7 +16,16 @@ const Main_card = styled("div" , {
     "&:hover":{
         boxShadow:"$8dp",
         transition:"$shadowing"
+    },
+
+    [`.${darkTheme} &`]:{
+        "&:hover":{
+            boxShadow:"$1dpw",
+            transition:"$shadowing"
+        }
     }
+
+
 
 })
 
