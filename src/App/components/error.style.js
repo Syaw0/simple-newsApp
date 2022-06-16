@@ -9,8 +9,11 @@ const Error_con = styled("div" , {
 
     "ul":{
         paddingTop: "$1",
-        marginLeft:"$2"
-        
+        marginLeft:"$2",
+    
+        "& li ":{
+            color:"$onBg"
+        }
     },
     "&>*":{
         cursor:"default"
