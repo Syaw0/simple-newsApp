@@ -1,29 +1,38 @@
-
 # Simple News
 
 </br>
 
-## How I worked on this project
+## What is This Project
 
-Hello My Dear Friends .
-I start learning Css in Js with [@Stitches/react](https://stitches.dev/)
-its amazing and have some feature like: 
-- utils 
-- multi varients 
-- zero run time 
-
-so i start this project with practical API that provide some news 
-write initial components and style them
-then write some test in jest that testing the app flow 
-
-
+A simple news app base on search engine.
+the user search the keywords that its like and wait for api call response,
+the key feature of this project is the simplicity and minimalist ui.
 </br>
 
+## API
 
-## API 
-
-This is API i used for this project : [NEWS ](https://newsapi.org/)
-i notice that this api just provide data for localhost cors
+This is API i used for this project : [News](https://newsapi.org/)
+i notice that this api just provide data for just localhost.
 </br>
 
+## How Start This Project In Local
 
+step1 :
+
+```bash
+git clone https://github.com/Syaw0/simple-newsApp.git
+```
+
+step2 :
+
+```bash
+cd simple-newsApp && npm install
+```
+
+step3 :
+
+```bash
+npm run start
+```
+
+Enjoy 😚✨
